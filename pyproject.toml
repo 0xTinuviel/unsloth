@@ -50,7 +50,6 @@ huggingface = [
     "accelerate>=0.34.1",
     "trl>=0.7.9,!=0.9.0,!=0.9.1,!=0.9.2,!=0.9.3,!=0.15.0,<=0.15.2",
     "peft>=0.7.1,!=0.11.0",
-    "protobuf<4.0.0",
     "huggingface_hub",
     "hf_transfer",
     "unsloth[triton]",
@@ -361,7 +360,6 @@ colab-new = [
     "psutil",
     "wheel>=0.42.0",
     "numpy",
-    "protobuf<4.0.0",
     "huggingface_hub",
     "hf_transfer",
     "bitsandbytes>=0.43.3",
@@ -373,7 +371,6 @@ colab-no-deps = [
     "peft>=0.7.1",
     "xformers",
     "bitsandbytes>=0.46.1",
-    "protobuf<4.0.0",
 ]
 colab = [
     "unsloth[cu121]",
